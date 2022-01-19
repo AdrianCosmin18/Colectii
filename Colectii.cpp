@@ -11,7 +11,7 @@ int main() {
 	coada->push_back(23);
 	coada->push_back(43);
 
-	coada->traverse();
+	cout<<coada->size();
 }
 
 

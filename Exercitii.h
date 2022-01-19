@@ -100,3 +100,16 @@ void solve_sortare_cu_stiva() {
 	
 
 }
+
+
+
+
+//Tema: 10 ex din pdf
+
+
+//1.Do linked lists take more storage space than arrays of the same size?
+// 
+// 
+// 
+// 2. Why don’t we need iterators with arrays?
+//

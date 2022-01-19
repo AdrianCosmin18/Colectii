@@ -1,12 +1,5 @@
 #include"Stack.h"
 
-//empty //
-//size
-//front //
-//back  //
-//push_back //
-//pop_front //
-
 template<typename T>
 class Queue
 {
@@ -64,7 +57,7 @@ public:
 		}
 		else {
 
-			Node<T>* node = back;
+			Node<T>* node = front;
 			int count = 0;
 			while (node != NULL) {
 
@@ -75,7 +68,6 @@ public:
 			return count;
 		}
 	}
-
 
 	void traverse() {
 
