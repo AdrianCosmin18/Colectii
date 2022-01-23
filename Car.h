@@ -68,7 +68,7 @@ public:
 
 	bool operator== (Car c1) {
 
-		return (this->marca == c1.marca && this->model == c1.model && this->an == c1.an);
+		return (this->id == c1.id && this->marca == c1.marca && this->model == c1.model);
 	}//equals
 
 	friend ostream& operator<<(ostream& os, const Car& c) {

@@ -52,7 +52,7 @@ public:
 
 	bool operator== (Person p) {
 
-		return (this->h == p.h);
+		return (this->id == p.id && this->nume == p.nume || this->id == p.id);
 	}
 
 	friend ostream& operator<<(ostream& os, const Person& p) {
