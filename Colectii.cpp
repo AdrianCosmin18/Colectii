@@ -3,15 +3,19 @@
 int main() {
 
 	
-	Set<Person*>* set = new Set<Person*>();
+	SimpleHashTable<string, string>* sht = new SimpleHashTable<string, string>();
 
-	set->add(new Person(0,"Cosmin", "M", 14));
-	set->add(new Person(1,"Mihai", "M", 21));
-	set->add(new Person(2,"George", "M", 19));
-	set->add(new Person(4,"Laura", "F", 17));
+	sht->put("Cosmin", "BMW");
+	sht->put("Andrei", "Mercedes");
+	sht->put("Laur", "Logan");
+	sht->put("Marcel", "Seat");
+	sht->put("Mihai", "Mazda");
+	sht->put("Adriana", "Cazan");
 
-	set->remove(new Person("0,Cosmin,M,14"));
-	set->traverse();
+	cout << sht->findPosition("Laur");
+
+
+
 }
 
 

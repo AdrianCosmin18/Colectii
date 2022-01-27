@@ -42,6 +42,12 @@
     <ClCompile Include="Set.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Stored.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleHashTable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Car.h">
@@ -69,6 +75,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Set.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Stored.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleHashTable.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

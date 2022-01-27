@@ -1,4 +1,4 @@
-#include"Set.h"
+#include"SimpleHashTable.h"
 
 //functie ce verifica daca un text este corect balantat din pct de vedere al parantezelor : 
 // 

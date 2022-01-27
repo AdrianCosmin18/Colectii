@@ -147,7 +147,9 @@
     <ClCompile Include="Person.cpp" />
     <ClCompile Include="Queue.cpp" />
     <ClCompile Include="Set.cpp" />
+    <ClCompile Include="SimpleHashTable.cpp" />
     <ClCompile Include="Stack.cpp" />
+    <ClCompile Include="Stored.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Car.h" />
@@ -158,7 +160,9 @@
     <ClInclude Include="Person.h" />
     <ClInclude Include="Queue.h" />
     <ClInclude Include="Set.h" />
+    <ClInclude Include="SimpleHashTable.h" />
     <ClInclude Include="Stack.h" />
+    <ClInclude Include="Stored.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

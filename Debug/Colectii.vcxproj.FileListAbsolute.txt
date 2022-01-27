@@ -1,3 +1,4 @@
 C:\Users\Cosmin\C++Meditatii\OOP\StructuriDeDate\ExempleStructuriDeDate\Colectii\ListaGenerica\Colectii\Debug\Colectii.exe
 C:\Users\Cosmin\C++Meditatii\OOP\StructuriDeDate\ExempleStructuriDeDate\Colectii\ListaStiva\Debug\Colectii.exe
 C:\Users\Cosmin\C++Meditatii\OOP\StructuriDeDate\ExempleStructuriDeDate\Colectii\ListaStivaCoada\Debug\Colectii.exe
+C:\Users\Cosmin\C++Meditatii\OOP\StructuriDeDate\ExempleStructuriDeDate\Colectii\ListaStivaCoadaSet\Debug\Colectii.exe

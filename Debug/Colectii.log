@@ -1,15 +1,4 @@
 ﻿  Colectii.cpp
-C:\Users\Cosmin\C++Meditatii\OOP\StructuriDeDate\ExempleStructuriDeDate\Colectii\ListaStivaCoada\Set.h(43,23): error C2227: left of '->==' must point to class/struct/union/generic type
-C:\Users\Cosmin\C++Meditatii\OOP\StructuriDeDate\ExempleStructuriDeDate\Colectii\ListaStivaCoada\Set.h(36): message : while compiling class template member function 'int Set<Person *>::indexOf(T)'
-          with
-          [
-              T=Person *
-          ]
-C:\Users\Cosmin\C++Meditatii\OOP\StructuriDeDate\ExempleStructuriDeDate\Colectii\ListaStivaCoada\Set.h(172): message : see reference to function template instantiation 'int Set<Person *>::indexOf(T)' being compiled
-          with
-          [
-              T=Person *
-          ]
-C:\Users\Cosmin\C++Meditatii\OOP\StructuriDeDate\ExempleStructuriDeDate\Colectii\ListaStivaCoada\Colectii.cpp(6): message : see reference to class template instantiation 'Set<Person *>' being compiled
-  Set.cpp
+  SimpleHashTable.cpp
   Generating Code...
+  Colectii.vcxproj -> C:\Users\Cosmin\C++Meditatii\OOP\StructuriDeDate\ExempleStructuriDeDate\Colectii\ListaStivaCoadaSet\Debug\Colectii.exe

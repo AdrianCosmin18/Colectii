@@ -5,7 +5,6 @@ class Set
 {
 private:
 	Node<T>* head = NULL;
-
 public:
 
 	Node<T>* get_head() { return head; }
@@ -40,7 +39,7 @@ public:
 		while (itr != NULL) {
 
 			index++;
-			if (itr->get_data->operator==(*t)) {
+			if (itr->get_data()->operator==(*t)) {
 
 				return index;
 			}
@@ -170,10 +169,20 @@ public:
 	void remove(T t) {
 
 		int poz = indexOf(t);
-		Node<T>* node = get_node_by_index(poz);
-		Node<T>* priv = get_node_by_index(poz - 1);
+		if (poz == -1) {
 
-		priv->set_next(node->get_next());
+			cout << "\nNu exista aceasta persoana";
+		}
+		else {
+
+			Node<T>* node = get_node_by_index(poz);
+			Node<T>* priv = get_node_by_index(poz - 1);
+
+			priv->set_next(node->get_next());
+		}
 	}
+	
+	//maximul si minumul
+
 };
 
