@@ -7,6 +7,5 @@ public:
 
 	K key;
 	V value;
-
 };
 

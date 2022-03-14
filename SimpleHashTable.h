@@ -38,7 +38,7 @@ public:
 
 			 while (occupied(index) == true && index != stopIndex) {
 
-				 index = (+index + 1) % 10;
+				 index = (index + 1) % 10;
 			 }
 		 }
 		
@@ -57,7 +57,7 @@ public:
 	int findPosition(K key) {
 
 		
-		int index = hashKey(key) + 1;
+		int index = hashKey(key);
 		
 
 		if (hashTable[index] != NULL && hashTable[index]->key == key) {
@@ -82,13 +82,13 @@ public:
 		while (index != stopIndex && hashTable[index] != NULL && !(hashTable[index]->key == key)) {
 
 			cout << "\nintra in while";
-			index = (index + 1) % 10;;//alta regula
+			index = (index + 1) % 10;//alta regula
 		}
 
-		//if (hashTable[index] != NULL && hashTable[index]->key == key) {
+		if (hashTable[index] != NULL && hashTable[index]->key == key) {
 
-		//	return index;
-		//}
+			return index;
+		}
 		return -1;
 	}
 
